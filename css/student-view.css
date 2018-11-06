@@ -1,0 +1,10 @@
+body{
+    background-image: url(background6.jpg);
+}
+.topbar {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 4%;
+}
