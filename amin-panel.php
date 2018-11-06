@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head><title>ADMIN PANEL</title>
-    <link href="admin-style.css" type="text/css" rel="stylesheet">
+    <link href="css/admin-style.css" type="text/css" rel="stylesheet">
     </head>
    
 <script>
