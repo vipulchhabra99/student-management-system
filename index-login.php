@@ -30,7 +30,7 @@
         </script>
 
 <body>
-<img src=""
+
 <form method="post" action="login-pass.php">
 
 <div class="box">
