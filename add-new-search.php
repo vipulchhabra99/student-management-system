@@ -33,6 +33,7 @@ if($flag==1)
 else
 {
     $SESSION['check']=0;
+    header("Location:student-add-final.php");
 }
 
 

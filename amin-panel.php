@@ -51,6 +51,7 @@ function phpAlert() {
                 <li>WELOCME !</li>
                 <li><?php
                     session_start();
+                    $_SESSION['check']=0;
                     if($_SESSION['username']=="")
                     {
                         while(1)
