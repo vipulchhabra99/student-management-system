@@ -15,12 +15,15 @@ while($rows=mysqli_fetch_array($run_sql)){
         $_SESSION['student-name']=$rows['student-name'];
         $_SESSION['student-name']=$rows['student-name'];
         $_SESSION['student-name']=$rows['student-name'];
+        
     
         
     }
+    
+    
+    
+    
+    
 }
 
-
-
-
-$
+?>

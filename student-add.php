@@ -33,6 +33,17 @@
         
         </script>
     
+    <?php
+    session_start();
+    if($_SESSION["check"]==1)
+{
+    echo '<script language="javascript">';
+    echo 'alert("ROLL NUMBER ALREADY EXISTS !")';
+    echo '</script>';
+}
+    
+    ?>
+    
     <body>
     <h1><center>ADD NEW STUDENT</center></h1>
         <br>
@@ -40,7 +51,7 @@
         <br>
         <br>
         <br>
-        <form>
+        <form method="post" action="add-new-search.php">
         <div class="roll">
             ENTER ROLL NUMBER: &nbsp;&nbsp;
             &nbsp;&nbsp;<input type="text" name="rollno" value="rollno" name="rollno" onFocus="field_focus(this, 'rollno');" onblur="field_blur(this, 'rollno');" class="rollno">
@@ -54,7 +65,7 @@
             <input type="reset"  name="reset" id="btn2">
         <!--<a href="#"><div class="btn">Search</div></a> <!-- End Btn -->
          <!--   <a href="#"><div id="btn2">Reset</div></a>-->
-            
+            <input type="hidden" value="yes" name="validate">
         </form>
     
     </body>
