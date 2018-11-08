@@ -33,7 +33,7 @@
         
         </script>
     
-    <?php
+     <?php
     session_start();
     if($_SESSION["check"]==1)
 {
@@ -43,7 +43,9 @@
 }
     
     ?>
+
     
+
     <body>
     <h1><center>ADD NEW STUDENT</center></h1>
         <br>
@@ -54,7 +56,7 @@
         <form method="post" action="add-new-search.php">
         <div class="roll">
             ENTER ROLL NUMBER: &nbsp;&nbsp;
-            &nbsp;&nbsp;<input type="text" name="rollno" value="rollno" name="rollno" onFocus="field_focus(this, 'rollno');" onblur="field_blur(this, 'rollno');" class="rollno">
+            &nbsp;&nbsp;<input type="text" name="rollno" value="rollno"  onFocus="field_focus(this, 'rollno');" onblur="field_blur(this, 'rollno');" class="rollno">
         
         </div>
         <br>
