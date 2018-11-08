@@ -54,6 +54,24 @@
         </style>
         
     </head>
+    <?php
+function phpAlert() {
+    echo '<script language="javascript">';
+    echo 'alert("PLEASE LOGIN THROUGH LOGIN PAGE FIRST!")';
+    echo '</script>';
+}?>
+    <?php
+    
+    if($_SESSION['roll']=='')
+    {
+        while(1)
+        {
+            phpAlert();
+        }
+        
+    }
+    
+    ?>
     
     <body>
     <h1><center>ADD NEW STUDENT</center></h1>

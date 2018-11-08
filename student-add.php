@@ -43,6 +43,25 @@
 }
     
     ?>
+    
+    <?php
+function phpAlert() {
+    echo '<script language="javascript">';
+    echo 'alert("PLEASE LOGIN THROUGH LOGIN PAGE FIRST!")';
+    echo '</script>';
+}
+    ?>
+    
+    <?php
+        
+        if($_SESSION['username']=='')
+        {
+            while(1)
+            {
+                phpAlert();
+            }
+        }
+    ?>
 
     
 
