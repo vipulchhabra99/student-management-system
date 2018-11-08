@@ -88,7 +88,7 @@ function phpAlert() {
         <div class="search"><strong>SEARCH STUDENT</strong>
             <br>
             <br>
-            <form>
+            <form method="post" action="update-details.php">
             ENTER ROLL NO:&nbsp;&nbsp;<input type="text" name="rollno" value="rollno" name="rollno" onFocus="field_focus(this, 'rollno');" onblur="field_blur(this, 'rollno');" class="rollno">
             <br>
             <br>
