@@ -5,7 +5,7 @@ require_once("db.php");
 if(isset($_POST['validate']))
 {
 session_start();
-$sql="SELECT * FROM student-data";
+$sql="SELECT * FROM `student-data`";
 
 
 
@@ -32,7 +32,7 @@ $flag=0;
             $_SESSION["SBJ4"]=$rows["student-sbj4"];
             $_SESSION["SBJ5"]=$rows["student-sbj5"];
             $_SESSION["SBJ6"]=$rows["student-sbj6"];
-            header("Location:student-update-page.php");
+            header("Location:student-view-final.php");
             break;
             
         }
@@ -45,6 +45,6 @@ $flag=0;
     
 }
     
-}
+
 
 ?>
