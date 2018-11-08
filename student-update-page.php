@@ -3,27 +3,6 @@
         <title>UPDATE STUDENT DETAILS</title>
         <link href="css/stud-add-final.css" type="text/css" rel="stylesheet">
         <style>
-                                #button2{
-                          float:left;
-                          background:#3498db;
-                          width:8%;  
-                            padding-top:5px;
-                          padding-bottom:5px;
-                          color:white;
-                          border-radius:4px;
-                          border: #2980b9 1px solid;
-                          padding-left: 1%;
-                          margin-top:0%;
-
-                          margin-left:4%;
-                          font-weight:800;
-                          font-size:1em;
-                        }
-
-                        #button2:hover{ 
-                        background:#3594D2; 
-                        }
-
 
 
                         .button1 {
@@ -38,7 +17,7 @@
                           margin-top:0%;
 
                           float: left;
-                          margin-left:40%;
+                          margin-left:48%;
                           padding-left: 1%;
                           font-weight:800;
                           font-size:1em;
@@ -61,7 +40,7 @@
         <br>
         <br>
         
-        <form method="post" action="database-update.php">
+        <form method="post" action="db-student-change.php">
             
         <div class="roll">
             ROLL NUMBER: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="rollno" value="<?php
@@ -171,7 +150,7 @@
             
             
             <input type="submit" value="Update" name="submit" class="button1">
-            <input type="reset" value="Reset" name="reset" id="button2">
+            
             
             </form>
         <br>

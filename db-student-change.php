@@ -19,13 +19,14 @@ $attendance6=$_POST['atsb6'];
 
 
 
-$sql="INSERT INTO `student-data`VALUES ('$rollstu','$names','$branch','$semester','$sgpsem1','$sgpsem2','$cgpi','$attendance1','$attendance2','$attendance3','$attendance4','$attendance5','$attendance6')";
+$sql="UPDATE `student-data` SET `student-name`='$names',`student-branch`='$branch',`student-semester`='$semester',`student-sgp1`='$sgpsem1',`student-sgp2`='$sgpsem2',`student-cgp`='$cgpi',`student-sbj1`='$attendance1',`student-sbj2`='$attendance2',`student-sbj3`='$attendance3',`student-sbj4`='$attendance4',`student-sbj5`='$attendance5',`student-sbj6`='$attendance6' WHERE `student-roll`='$rollstu'";
+
 
 if($conn->query($sql)==TRUE)
 {
 
 echo '<script language="javascript">';
-echo 'alert("STUDENT ADDED SUCCESSFULLY !")';
+echo 'alert("STUDENT UPDATED SUCCESSFULLY !")';
 echo '</script>';
 }
 
