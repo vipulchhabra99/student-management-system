@@ -55,10 +55,10 @@ h1 {
   border-radius:4px;
 }
 
-#btn2{
+.btnx2{
   float:left;
   background:#3498db;
-  width:75px;  
+  width:8%;  
     padding-top:5px;
   padding-bottom:5px;
   color:white;
@@ -72,10 +72,32 @@ h1 {
   font-size:1em;
 }
 
-#btn2:hover{ 
+.btnx2:hover{ 
 background:#3594D2; 
 }
 
-.btn {
+
+
+.btnx {
+    background:#2ecc71;
+  width:8%;
+  padding-top:5px;
+  padding-bottom:5px;
+  color:white;
+  border-radius:4px;
+  border: #27ae60 1px solid;
+  
+  margin-top:0%;
+  
+  float: left;
+  margin-left:40%;
+  padding-left: 1%;
+  font-weight:800;
+  font-size:1em;
     
 }
+
+.btnx:hover{
+  background:#2CC06B; 
+}
+
