@@ -61,7 +61,8 @@
         <br>
         <br>
         
-        <form>
+        <form method="post" action="database-update.php">
+            
         <div class="roll">
             ROLL NUMBER: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="rollno" value="<?php
             session_start();
