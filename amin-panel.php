@@ -70,8 +70,10 @@ function phpAlert() {
                 
                 <li><a href="amin-panel.php">HOME</a></li>
                 <li><a href="student-add.php">ADD STUDENT</a></li>
-               <!-- <li>UPDATE DETAILS</li>-->
-                <li>SETTINGS</li>
+                <li><a href="student-view.php">VIEW STUDENT</a></li>
+             
+             
+        
                 <li><a href="logout.php">LOGOUT</a></li>
             
             </ul>
