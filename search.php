@@ -18,7 +18,8 @@ $flag=0;
     while($rows=mysqli_fetch_array($run_sql))
     {
         if($rows["student-roll"]==$roll)
-        {
+        {   
+            $flag=1;
             $_SESSION["ROLL-NO"]=$rows["student-roll"];
             $_SESSION["NAME"]=$rows["student-name"];
             $_SESSION["BRANCH"]=$rows["student-branch"];
@@ -37,6 +38,11 @@ $flag=0;
             
         }
 
+    }
+    
+    if($flag==0)
+    {
+        header("Location:rollno-error.html");
     }
 
     
