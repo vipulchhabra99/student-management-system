@@ -9,8 +9,14 @@ if(isset($_POST['validate']))
     $sql = "SELECT * FROM `student-data`";
     $flag=0;
 
-
-    $run_sql=mysqli_query($conn,$sql);
+    if($roll==0)
+    {
+        $_SESSION['roll']=0;
+        header("Location:student-add.php");
+    }
+    
+    else{
+        $run_sql=mysqli_query($conn,$sql);
     while($rows=mysqli_fetch_array($run_sql))
     {
         if($rows["student-roll"]==$roll)
@@ -35,6 +41,8 @@ if(isset($_POST['validate']))
         $_SESSION['roll']=$roll;
         header("Location:student-add-final.php");
     }
+    }
+    
 
 
 }
