@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>UPDATE STUDENT DETAILS</title>
+        <title>VIEW STUDENT DETAILS</title>
         <link href="css/stud-add-final.css" type="text/css" rel="stylesheet">
         <style>
             .re{
