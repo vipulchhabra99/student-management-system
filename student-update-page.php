@@ -57,14 +57,14 @@
             NAME:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="names" value="<?php
             
             echo $_SESSION['NAME'];
-            ?>" class="rollno">
+            ?>" class="rollno" required>
             
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
             SUBJECT 1:&nbsp;&nbsp;&nbsp;<input type="number" name="atsb1" value="<?php
            
             echo $_SESSION['SBJ1'];
-            ?>" class="rollno" min="0" max="100">
+            ?>" class="rollno" min="0" max="100" required>
 
             <br>
             <br>
@@ -72,14 +72,14 @@
             BRANCH:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="branch" value="<?php
          
             echo $_SESSION['BRANCH'];
-            ?>" class="rollno">
+            ?>" class="rollno" required>
             
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
             SUBJECT 2:&nbsp;&nbsp;&nbsp;<input type="number" name="atsb2" value="<?php
             
             echo $_SESSION['SBJ2'];
-            ?>" class="rollno" min="0" max="100">
+            ?>" class="rollno" min="0" max="100" required>
             
             <br><br>
             
@@ -87,56 +87,56 @@
             SEMESTER:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="semester" id="sem" value="<?php
             
             echo $_SESSION['SEMESTER'];
-            ?>" class="rollno">
+            ?>" class="rollno" required>
             
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
             SUBJECT 3:&nbsp;&nbsp;&nbsp;<input type="number" name="atsb3" value="<?php
           
             echo $_SESSION['SBJ3'];
-            ?>" class="rollno" min="0" max="100">
+            ?>" class="rollno" min="0" max="100" required>
             
             <br>
             <br>
             SGPI OF SEMESTER1:&nbsp;<input type="text" name="sgpsem1" value="<?php
          
             echo $_SESSION['SGP1'];
-            ?>" class="rollno">
+            ?>" class="rollno" required>
             
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
             SUBJECT 4:&nbsp;&nbsp;&nbsp;<input type="number" name="atsb4" value="<?php
          
             echo $_SESSION['SBJ4'];
-            ?>" class="rollno" min="0" max="100">
+            ?>" class="rollno" min="0" max="100" required>
             
             <br>
             <br>
             SEMESTER 2:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="sgpsem2" value="<?php
           
             echo $_SESSION['SGP2'];
-            ?>" class="rollno">
+            ?>" class="rollno" required>
             
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
             SUBJECT 5:&nbsp;&nbsp;&nbsp;<input type="number" name="atsb5" value="<?php
           
             echo $_SESSION['SBJ5'];
-            ?>" class="rollno" min="0" max="100">
+            ?>" class="rollno" min="0" max="100" required>
             
             <br>
             <br>
             CGPI:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cgpi" value="<?php
       
             echo $_SESSION['CGP'];
-            ?>" class="rollno">
+            ?>" class="rollno" required>
             
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
             SUBJECT 6:&nbsp;&nbsp;&nbsp;<input type="number" name="atsb6" value="<?php
          
             echo $_SESSION['SBJ6'];
-            ?>" class="rollno" min="0" max="100">
+            ?>" class="rollno" min="0" max="100" required>
             
             <br>
             <br>

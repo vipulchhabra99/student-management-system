@@ -91,7 +91,7 @@ function phpAlert() {
             <br>
             <br>
             <form method="post" action="update-details.php">
-            ENTER ROLL NO:&nbsp;&nbsp;<input type="text" name="rollno" value="rollno" name="rollno" onFocus="field_focus(this, 'rollno');" onblur="field_blur(this, 'rollno');" class="rollno">
+            ENTER ROLL NO:&nbsp;&nbsp;<input type="text" name="rollno" value="rollno" name="rollno" onFocus="field_focus(this, 'rollno');" onblur="field_blur(this, 'rollno');" class="rollno" required>
             <br>
             <br>
             <input type="submit" name="submit" value="Submit" class="btn">

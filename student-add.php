@@ -78,7 +78,7 @@ function phpAlert() {
         <form method="post" action="add-new-search.php">
         <div class="roll">
             ENTER ROLL NUMBER: &nbsp;&nbsp;
-            &nbsp;&nbsp;<input type="text" name="rollno" value="rollno"  onFocus="field_focus(this, 'rollno');" onblur="field_blur(this, 'rollno');" class="rollno">
+            &nbsp;&nbsp;<input type="text" name="rollno" value="rollno"  onFocus="field_focus(this, 'rollno');" onblur="field_blur(this, 'rollno');" class="rollno" required>
         
         </div>
         <br>

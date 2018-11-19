@@ -37,9 +37,9 @@
     <img src="images/Webp.net-resizeimage.png">
 <h1>LOGIN</h1>
 
-<input type="email" name="login-email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+<input type="email" name="login-email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" required>
   
-<input type="password" name="login-password" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+<input type="password" name="login-password" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" required>
     
     <input type="hidden" value="yes" name="validate">
     
